@@ -1,0 +1,24 @@
+Explanation:
+Imports and Downloads:
+
+import nltk and from nltk import pos_tag, word_tokenize: Imports necessary functions from the NLTK library.
+nltk.download('punkt') and nltk.download('averaged_perceptron_tagger'): Downloads the required NLTK data files.
+pos_tagging Function:
+
+Tokenizes the input sentence and tags each token with its part of speech.
+Sample Sentences:
+
+Provides example sentences to be used in the POS Tagging Challenge.
+play_game Function:
+
+Iterates through each sample sentence, applies POS tagging, and prints the results.
+Execution:
+
+Ensures that play_game() is called only if the script is executed as the main program.
+Steps to Run the Script:
+Ensure NLTK is Installed:
+
+If not installed, use pip install nltk.
+Run the Script:
+
+Execute the script in your Python environment. It will download necessary resources, perform POS tagging on the sample sentences, and display the results.
